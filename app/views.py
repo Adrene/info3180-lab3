@@ -17,7 +17,7 @@ from flask import render_template, request, redirect, url_for
 @app.route('/')
 def home():
     """Render website's home page."""
-    return render_template('home.html')
+    return render_template('contact.html')
 
 
 @app.route('/about/')
